@@ -1,0 +1,13 @@
+apiVersion: k8s.otterize.com/v1alpha3
+kind: ClientIntents
+metadata:
+  name: server
+  namespace: otterize-tutorial-iam
+spec:
+  service:
+    name: client-11
+  calls:
+    - name: projects/_/buckets/otterize-demo-bucket*
+      type: gcp
+      gcpPermissions:
+        - "storage.admin"
