@@ -5,7 +5,7 @@ metadata:
   namespace: otterize-tutorial-iam
 spec:
   service:
-    name: client-11
+    name: client-3
   calls:
     - name: projects/_/buckets/otterize-demo-bucket*
       type: gcp
