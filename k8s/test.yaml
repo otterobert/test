@@ -11,3 +11,4 @@ spec:
       type: gcp
       gcpPermissions:
         - "storage.admin"
+    - name: server-sink
